@@ -11,7 +11,7 @@ st.title("CALCULATOR")
 st.markdown("""
 <style>
 .block-container {
-    max-width: 600px;
+    max-width: 350px;
     margin: auto;
     padding: 25px;
     border: 3px solid black;
@@ -26,7 +26,7 @@ if "expression" not in st.session_state:
 st.markdown(
     f"""
     <div style="
-        font-size:35px;
+        font-size:25px;
         text-align:right;
         padding:15px;
         border:2px solid #ccc;
